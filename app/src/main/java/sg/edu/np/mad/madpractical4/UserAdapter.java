@@ -41,9 +41,6 @@ public class UserAdapter extends RecyclerView.Adapter<UserViewHolder> {
         holder.name.setText(user.name);
         holder.description.setText(user.description);
 
-        if (holder.bigImage != null){
-            holder.bigImage.setImageResource(R.drawable.ic_launcher_foreground);
-        }
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
